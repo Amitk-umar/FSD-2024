@@ -1,0 +1,18 @@
+/* id selector */
+#headid{
+    color: rgb(10, 183, 65);
+}
+#id2{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#id3{
+    color: black;
+}
+/* Attribute selector */
+h3[class="head3"]{
+color: blue;
+}
+*{
+   background-color: rgb(80, 231, 223);
+}

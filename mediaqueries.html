@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        h1{
+            font-size: 25px;
+            color:white;
+            background-color: rgb(3, 42, 111);
+        }
+        img {
+            height: 450px;
+            width: 370px;
+        }
+       
+        @media (max-width: 450px) {
+            img {
+                height: 250px;
+                width: 250px;
+            }
+            h1{
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                background-color: blueviolet;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Hot Air Balloon</h1>
+    <img src="/nature.jpg" alt="nature flower">
+ 
+</body>
+</html>
